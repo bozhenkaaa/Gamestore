@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/Desktop/Gamestore/Gamestore/Gamestore.csproj": {}
+    "/Users/user/Desktop/Gamestore1/Gamestore/Gamestore.csproj": {}
   },
   "projects": {
-    "/Users/user/Desktop/Gamestore/Gamestore/Gamestore.csproj": {
+    "/Users/user/Desktop/Gamestore1/Gamestore/Gamestore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/Desktop/Gamestore/Gamestore/Gamestore.csproj",
+        "projectUniqueName": "/Users/user/Desktop/Gamestore1/Gamestore/Gamestore.csproj",
         "projectName": "Gamestore",
-        "projectPath": "/Users/user/Desktop/Gamestore/Gamestore/Gamestore.csproj",
+        "projectPath": "/Users/user/Desktop/Gamestore1/Gamestore/Gamestore.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/Desktop/Gamestore/Gamestore/obj/",
+        "outputPath": "/Users/user/Desktop/Gamestore1/Gamestore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"

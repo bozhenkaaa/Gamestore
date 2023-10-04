@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3KnQYku4fQv/Haks5NKCKkTeBqf9RD/tPqO+Od3a7+xTb3wM3IR5/TMlS3TG5VWBcX0F3rDEQFt0ZY7e/fESJw==",
+  "dgSpecHash": "O5uUFMfL2CjZQL+/d2bKW8DA4F4mokZi6nY9+LVRZHF6lhi7G3IDOODgtKhuyVHg7skd3cyvd8EJazTXAdr33A==",
   "success": true,
-  "projectFilePath": "/Users/user/Desktop/Gamestore/Gamestore/Gamestore.csproj",
+  "projectFilePath": "/Users/user/Desktop/Gamestore1/Gamestore/Gamestore.csproj",
   "expectedPackageFiles": [
     "/Users/user/.nuget/packages/microsoft.aspnetcore.openapi/7.0.11/microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "/Users/user/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
