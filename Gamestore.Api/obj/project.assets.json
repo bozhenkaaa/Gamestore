@@ -504,11 +504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/Gamestore1/Gamestore/Gamestore.csproj",
-      "projectName": "Gamestore",
-      "projectPath": "/Users/user/Desktop/Gamestore1/Gamestore/Gamestore.csproj",
+      "projectUniqueName": "/Users/user/Desktop/Gamestore1/Gamestore.Api/Gamestore.Api.csproj",
+      "projectName": "Gamestore.Api",
+      "projectPath": "/Users/user/Desktop/Gamestore1/Gamestore.Api/Gamestore.Api.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/Gamestore1/Gamestore/obj/",
+      "outputPath": "/Users/user/Desktop/Gamestore1/Gamestore.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"
