@@ -1,0 +1,7 @@
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.Api/obj/Debug/net7.0/Gamestore.Api.csproj.AssemblyReference.cache
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.Api/obj/Debug/net7.0/Gamestore.Api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.Api/obj/Debug/net7.0/Gamestore.Api.AssemblyInfoInputs.cache
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.Api/obj/Debug/net7.0/Gamestore.Api.AssemblyInfo.cs
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.Api/obj/Debug/net7.0/Gamestore.Api.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.Api/obj/Debug/net7.0/Gamestore.Api.MvcApplicationPartsAssemblyInfo.cs
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.Api/obj/Debug/net7.0/Gamestore.Api.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gamestore.Models</name>
+    </assembly>
+    <members>
+        <member name="T:Gamestore.Models.Models.Game">
+            <inheritdoc cref="T:Gamestore.Models.Models.Game" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Game.Id">
+            <inheritdoc cref="P:Gamestore.Models.Models.Game.Id" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Game.GameAlias">
+            <inheritdoc cref="P:Gamestore.Models.Models.Game.GameAlias" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Game.Name">
+            <inheritdoc cref="P:Gamestore.Models.Models.Game.Name" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Game.Description">
+            <inheritdoc cref="P:Gamestore.Models.Models.Game.Description" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Game.GenreId">
+            <inheritdoc cref="P:Gamestore.Models.Models.Game.GenreId" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Game.Genre">
+            <inheritdoc cref="P:Gamestore.Models.Models.Game.Genre" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Game.PlatformId">
+            <inheritdoc cref="P:Gamestore.Models.Models.Game.PlatformId" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Game.Platform">
+            <inheritdoc cref="P:Gamestore.Models.Models.Game.Platform" />
+        </member>
+        <member name="T:Gamestore.Models.Models.Genre">
+            <inheritdoc cref="T:Gamestore.Models.Models.Genre" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Genre.Id">
+            <inheritdoc cref="P:Gamestore.Models.Models.Genre.Id" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Genre.Name">
+            <inheritdoc cref="P:Gamestore.Models.Models.Genre.Name" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Genre.ParentGenreId">
+            <inheritdoc cref="P:Gamestore.Models.Models.Genre.ParentGenreId" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Genre.ParentGenre">
+            <inheritdoc cref="P:Gamestore.Models.Models.Genre.ParentGenre" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Genre.SubGenres">
+            <inheritdoc cref="P:Gamestore.Models.Models.Genre.SubGenres" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Genre.Games">
+            <inheritdoc cref="P:Gamestore.Models.Models.Genre.Games" />
+        </member>
+        <member name="T:Gamestore.Models.Models.Platform">
+            <inheritdoc cref="T:Gamestore.Models.Models.Platform" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Platform.Id">
+            <inheritdoc cref="P:Gamestore.Models.Models.Platform.Id" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Platform.Type">
+            <inheritdoc cref="P:Gamestore.Models.Models.Platform.Type" />
+        </member>
+        <member name="P:Gamestore.Models.Models.Platform.Games">
+            <inheritdoc cref="P:Gamestore.Models.Models.Platform.Games" />
+        </member>
+    </members>
+</doc>

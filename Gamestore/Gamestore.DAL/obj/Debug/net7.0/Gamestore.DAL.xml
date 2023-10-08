@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gamestore.DAL</name>
+    </assembly>
+    <members>
+        <member name="T:Gamestore.DAL.Data.GamestoreDbContext">
+            <inheritdoc cref="T:Gamestore.DAL.Data.GamestoreDbContext" />
+        </member>
+        <member name="M:Gamestore.DAL.Data.GamestoreDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{Gamestore.DAL.Data.GamestoreDbContext})">
+            <inheritdoc cref="T:Gamestore.DAL.Data.GamestoreDbContext" />
+        </member>
+        <member name="P:Gamestore.DAL.Data.GamestoreDbContext.Games">
+            <inheritdoc cref="P:Gamestore.DAL.Data.GamestoreDbContext.Games" />
+        </member>
+        <member name="P:Gamestore.DAL.Data.GamestoreDbContext.Genres">
+            <inheritdoc cref="P:Gamestore.DAL.Data.GamestoreDbContext.Genres" />
+        </member>
+        <member name="P:Gamestore.DAL.Data.GamestoreDbContext.Platforms">
+            <inheritdoc cref="P:Gamestore.DAL.Data.GamestoreDbContext.Platforms" />
+        </member>
+        <member name="M:Gamestore.DAL.Data.GamestoreDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Gamestore.DAL.Data.GamestoreDbContextFactory">
+            <summary>
+               Factory for creating <see cref="T:Gamestore.DAL.Data.GamestoreDbContext" />.
+            </summary>
+        </member>
+        <member name="M:Gamestore.DAL.Data.GamestoreDbContextFactory.CreateDbContext(System.String[])">
+            <inheritdoc cref="T:Gamestore.DAL.Data.GamestoreDbContext" />
+        </member>
+        <member name="T:Gamestore.DAL.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:Gamestore.DAL.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gamestore.DAL.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Gamestore.DAL.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Gamestore.DAL.Repositories.Implementations.GameRepository">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Implementations.GameRepository" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.GameRepository.#ctor(Gamestore.DAL.Data.GamestoreDbContext)">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Implementations.GameRepository" />
+        </member>
+        <member name="T:Gamestore.DAL.Repositories.Implementations.GenreRepository">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Implementations.GenreRepository" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.GenreRepository.#ctor(Gamestore.DAL.Data.GamestoreDbContext)">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Implementations.GenreRepository" />
+        </member>
+        <member name="T:Gamestore.DAL.Repositories.Implementations.PlatformRepository">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Implementations.PlatformRepository" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.PlatformRepository.#ctor(Gamestore.DAL.Data.GamestoreDbContext)">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Implementations.PlatformRepository" />
+        </member>
+        <member name="T:Gamestore.DAL.Repositories.Implementations.Repository`1">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Implementations.Repository`1" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.Repository`1.#ctor(Gamestore.DAL.Data.GamestoreDbContext)">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Implementations.Repository`1" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.Repository`1.GetAllAsync">
+            <inheritdoc cref="M:Gamestore.DAL.Repositories.Implementations.Repository`1.GetAllAsync" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.Repository`1.DeleteAsync(System.Int32)">
+            <inheritdoc cref="M:Gamestore.DAL.Repositories.Implementations.Repository`1.DeleteAsync(System.Int32)" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.Repository`1.GetByIdAsync(System.Int32)">
+            <inheritdoc cref="M:Gamestore.DAL.Repositories.Implementations.Repository`1.GetByIdAsync(System.Int32)" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.Repository`1.AddAsync(`0)">
+            <inheritdoc cref="M:Gamestore.DAL.Repositories.Implementations.Repository`1.AddAsync(`0)" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Implementations.Repository`1.Update(`0)">
+            <inheritdoc cref="M:Gamestore.DAL.Repositories.Implementations.Repository`1.Update(`0)" />
+        </member>
+        <member name="T:Gamestore.DAL.Repositories.Interfaces.IGameRepository">
+            <inheritdoc cref="N:Gamestore.DAL.Repositories.Interfaces" />
+        </member>
+        <member name="T:Gamestore.DAL.Repositories.Interfaces.IGenreRepository">
+            <inheritdoc cref="N:Gamestore.DAL.Repositories.Interfaces" />
+        </member>
+        <member name="T:Gamestore.DAL.Repositories.Interfaces.IPlatformRepository">
+            <inheritdoc cref="N:Gamestore.DAL.Repositories.Interfaces" />
+        </member>
+        <member name="T:Gamestore.DAL.Repositories.Interfaces.IRepository`1">
+            <inheritdoc cref="N:Gamestore.DAL.Repositories.Interfaces" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Interfaces.IRepository`1.AddAsync(`0)">
+            <inheritdoc cref="T:System.Threading.Tasks.Task" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Interfaces.IRepository`1.Update(`0)">
+            <inheritdoc cref="T:System.Void" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Interfaces.IRepository`1.DeleteAsync(System.Int32)">
+            <inheritdoc cref="T:System.Threading.Tasks.Task" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Interfaces.IRepository`1.GetByIdAsync(System.Int32)">
+            <inheritdoc cref="T:System.Threading.Tasks.Task" />
+        </member>
+        <member name="M:Gamestore.DAL.Repositories.Interfaces.IRepository`1.GetAllAsync">
+            <inheritdoc cref="T:System.Threading.Tasks.Task" />
+        </member>
+        <member name="T:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork">
+            <inheritdoc cref="T:Gamestore.DAL.UnitOfWork.Interfaces.IUnitOfWork" />
+        </member>
+        <member name="F:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.dbContext">
+            <inheritdoc cref="T:Gamestore.DAL.Data.GamestoreDbContext" />
+        </member>
+        <member name="F:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.disposed">
+            <inheritdoc cref="T:System.Boolean" />
+        </member>
+        <member name="M:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.#ctor(Gamestore.DAL.Data.GamestoreDbContext)">
+            <inheritdoc cref="T:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork" />
+        </member>
+        <member name="P:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.Games">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Interfaces.IRepository`1" />
+        </member>
+        <member name="P:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.Genres">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Interfaces.IRepository`1" />
+        </member>
+        <member name="P:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.Platforms">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Interfaces.IRepository`1" />
+        </member>
+        <member name="M:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.SaveChangesAsync">
+            <inheritdoc cref="T:System.Threading.Tasks.Task" />
+        </member>
+        <member name="M:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.Dispose">
+            <inheritdoc cref="T:System.Void" />
+        </member>
+        <member name="M:Gamestore.DAL.UnitOfWork.Implementations.UnitOfWork.Dispose(System.Boolean)">
+            <inheritdoc cref="T:System.Void" />
+        </member>
+        <member name="T:Gamestore.DAL.UnitOfWork.Interfaces.IUnitOfWork">
+            <inheritdoc cref="N:Gamestore.DAL.UnitOfWork.Interfaces" />
+        </member>
+        <member name="P:Gamestore.DAL.UnitOfWork.Interfaces.IUnitOfWork.Games">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Interfaces.IRepository`1" />
+        </member>
+        <member name="P:Gamestore.DAL.UnitOfWork.Interfaces.IUnitOfWork.Genres">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Interfaces.IRepository`1" />
+        </member>
+        <member name="P:Gamestore.DAL.UnitOfWork.Interfaces.IUnitOfWork.Platforms">
+            <inheritdoc cref="T:Gamestore.DAL.Repositories.Interfaces.IRepository`1" />
+        </member>
+        <member name="M:Gamestore.DAL.UnitOfWork.Interfaces.IUnitOfWork.SaveChangesAsync">
+            <inheritdoc cref="T:System.Threading.Tasks.Task" />
+        </member>
+    </members>
+</doc>

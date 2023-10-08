@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gamestore.BLL</name>
+    </assembly>
+    <members>
+        <member name="T:Gamestore.BLL.DTOs.GameDto">
+            <inheritdoc cref="T:Gamestore.BLL.DTOs.GameDto" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GameDto.Id">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GameDto.Id" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GameDto.GameAlias">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GameDto.GameAlias" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GameDto.Name">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GameDto.Name" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GameDto.Description">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GameDto.Description" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GameDto.GenreId">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GameDto.GenreId" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GameDto.PlatformId">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GameDto.PlatformId" />
+        </member>
+        <member name="T:Gamestore.BLL.DTOs.GenreDTO">
+            <inheritdoc cref="T:Gamestore.BLL.DTOs.GenreDTO" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GenreDTO.Id">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GenreDTO.Id" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GenreDTO.Name">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GenreDTO.Name" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.GenreDTO.ParentGenreId">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.GenreDTO.ParentGenreId" />
+        </member>
+        <member name="T:Gamestore.BLL.DTOs.PlatformDTO">
+            <inheritdoc cref="T:Gamestore.BLL.DTOs.PlatformDTO" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.PlatformDTO.Id">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.PlatformDTO.Id" />
+        </member>
+        <member name="P:Gamestore.BLL.DTOs.PlatformDTO.Type">
+            <inheritdoc cref="P:Gamestore.BLL.DTOs.PlatformDTO.Type" />
+        </member>
+        <member name="T:Gamestore.BLL.Profiles.ApplicationProfile">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Profiles.ApplicationProfile.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Gamestore.BLL.Profiles.ApplicationProfile"/> class.
+            </summary>
+        </member>
+        <member name="T:Gamestore.BLL.Services.Implementations.GameService">
+            <inheritdoc />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GameService.GetGamesAsync">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GameService.GetGameAsync(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GameService.AddGameAsync(Gamestore.BLL.DTOs.GameDto)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GameService.UpdateGameAsync(Gamestore.BLL.DTOs.GameDto)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GameService.DeleteGameAsync(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Gamestore.BLL.Services.Implementations.GenreService">
+            <inheritdoc cref="T:Gamestore.BLL.Services.Implementations.GenreService" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GenreService.GetGenresAsync">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GenreService.GetGenreAsync(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GenreService.AddGenreAsync(Gamestore.BLL.DTOs.GenreDTO)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GenreService.UpdateGenreAsync(Gamestore.BLL.DTOs.GenreDTO)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.GenreService.DeleteGenreAsync(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Gamestore.BLL.Services.Implementations.PlatformService">
+            <inheritdoc cref="T:Gamestore.BLL.Services.Implementations.PlatformService" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.PlatformService.GetPlatformsAsync">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.PlatformService.GetPlatformAsync(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.PlatformService.AddPlatformAsync(Gamestore.BLL.DTOs.PlatformDTO)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.PlatformService.UpdatePlatformAsync(Gamestore.BLL.DTOs.PlatformDTO)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.PlatformService.DeletePlatformAsync(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Gamestore.BLL.Services.Interfaces.IGameService">
+            <inheritdoc cref="T:Gamestore.BLL.Services.Interfaces.IGameService" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGameService.GetGamesAsync">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGameService.GetGamesAsync" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGameService.GetGameAsync(System.Int32)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGameService.GetGameAsync(System.Int32)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGameService.AddGameAsync(Gamestore.BLL.DTOs.GameDto)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGameService.AddGameAsync(Gamestore.BLL.DTOs.GameDto)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGameService.UpdateGameAsync(Gamestore.BLL.DTOs.GameDto)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGameService.UpdateGameAsync(Gamestore.BLL.DTOs.GameDto)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGameService.DeleteGameAsync(System.Int32)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGameService.DeleteGameAsync(System.Int32)" />
+        </member>
+        <member name="T:Gamestore.BLL.Services.Interfaces.IGenreService">
+            <inheritdoc cref="T:Gamestore.BLL.Services.Interfaces.IGenreService" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGenreService.GetGenresAsync">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGenreService.GetGenresAsync" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGenreService.GetGenreAsync(System.Int32)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGenreService.GetGenreAsync(System.Int32)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGenreService.AddGenreAsync(Gamestore.BLL.DTOs.GenreDTO)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGenreService.AddGenreAsync(Gamestore.BLL.DTOs.GenreDTO)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGenreService.UpdateGenreAsync(Gamestore.BLL.DTOs.GenreDTO)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGenreService.UpdateGenreAsync(Gamestore.BLL.DTOs.GenreDTO)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IGenreService.DeleteGenreAsync(System.Int32)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IGenreService.DeleteGenreAsync(System.Int32)" />
+        </member>
+        <member name="T:Gamestore.BLL.Services.Interfaces.IPlatformService">
+            <inheritdoc cref="T:Gamestore.BLL.Services.Interfaces.IPlatformService" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IPlatformService.GetPlatformsAsync">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IPlatformService.GetPlatformsAsync" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IPlatformService.GetPlatformAsync(System.Int32)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IPlatformService.GetPlatformAsync(System.Int32)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IPlatformService.AddPlatformAsync(Gamestore.BLL.DTOs.PlatformDTO)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IPlatformService.AddPlatformAsync(Gamestore.BLL.DTOs.PlatformDTO)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IPlatformService.UpdatePlatformAsync(Gamestore.BLL.DTOs.PlatformDTO)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IPlatformService.UpdatePlatformAsync(Gamestore.BLL.DTOs.PlatformDTO)" />
+        </member>
+        <member name="M:Gamestore.BLL.Services.Interfaces.IPlatformService.DeletePlatformAsync(System.Int32)">
+            <inheritdoc cref="M:Gamestore.BLL.Services.Interfaces.IPlatformService.DeletePlatformAsync(System.Int32)" />
+        </member>
+    </members>
+</doc>
