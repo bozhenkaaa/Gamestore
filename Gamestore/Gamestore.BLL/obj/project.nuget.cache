@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "yNAFD7kXNBF9uO3mHUuZhRzX3zfotcXhvaXcF6gvjSmiHLueQL33v2upqziTuo2BDtw9ZeAa6m1Tm0AxWrPxRA==",
+  "success": true,
+  "projectFilePath": "/Users/user/Desktop/Gamestore/Gamestore/Gamestore.BLL/Gamestore.BLL.csproj",
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.codecoverage/17.7.2/microsoft.codecoverage.17.7.2.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.net.test.sdk/17.7.2/microsoft.net.test.sdk.17.7.2.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.testplatform.objectmodel/17.7.2/microsoft.testplatform.objectmodel.17.7.2.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.testplatform.testhost/17.7.2/microsoft.testplatform.testhost.17.7.2.nupkg.sha512",
+    "/Users/user/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/nuget.frameworks/6.5.0/nuget.frameworks.6.5.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/Users/user/.nuget/packages/nunit3testadapter/4.5.0/nunit3testadapter.4.5.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/stylecop.analyzers.unstable/1.2.0.435/stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512",
+    "/Users/user/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/Users/user/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
