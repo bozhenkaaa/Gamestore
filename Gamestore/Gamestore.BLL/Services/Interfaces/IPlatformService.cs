@@ -5,12 +5,13 @@
 namespace Gamestore.BLL.Services.Interfaces;
 
 using Gamestore.BLL.DTOs;
+using Gamestore.Models.Models;
 
 /// <inheritdoc cref="IPlatformService" />
 public interface IPlatformService
 {
     /// <inheritdoc cref="GetPlatformsAsync" />
-    Task<IEnumerable<PlatformDTO>> GetPlatformsAsync();
+    Task<IEnumerable<Platform>> GetPlatformsAsync();
 
     /// <inheritdoc cref="GetPlatformAsync" />
     Task<PlatformDTO> GetPlatformAsync(int id);

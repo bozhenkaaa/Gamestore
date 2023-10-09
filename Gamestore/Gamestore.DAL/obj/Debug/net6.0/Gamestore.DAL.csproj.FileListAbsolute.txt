@@ -146,3 +146,9 @@
 /Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/obj/Debug/net6.0/Gamestore.DAL.pdb
 /Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/obj/Debug/net6.0/Gamestore.DAL.genruntimeconfig.cache
 /Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/obj/Debug/net6.0/ref/Gamestore.DAL.dll
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/user/Desktop/Gamestore/Gamestore/Gamestore.DAL/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll

@@ -2,6 +2,7 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+#nullable enable
 namespace Gamestore.Models.Models;
 
 using System.ComponentModel.DataAnnotations;

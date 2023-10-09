@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gamestore.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Gamestore.Controllers.PlatformsController">
+            <inheritdoc />
+        </member>
+        <member name="M:Gamestore.Controllers.PlatformsController.#ctor(Gamestore.BLL.Services.Interfaces.IPlatformService)">
+            <inheritdoc cref="T:Gamestore.Controllers.PlatformsController" />
+        </member>
+        <member name="M:Gamestore.Controllers.PlatformsController.GetPlatformsAsync">
+            <inheritdoc cref="M:Gamestore.Controllers.PlatformsController.GetPlatformsAsync" />
+        </member>
+    </members>
+</doc>

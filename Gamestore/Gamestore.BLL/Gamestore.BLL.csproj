@@ -14,6 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Gamestore.DAL\Gamestore.DAL.csproj" />
       <ProjectReference Include="..\Gamestore.Models\Gamestore.Models.csproj" />
     </ItemGroup>
 

@@ -8,6 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="AutoMapper" Version="12.0.1" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.22" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.22">
@@ -25,10 +31,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
-    <ItemGroup>
+      <ProjectReference Include="..\Gamestore.BLL\Gamestore.BLL.csproj" />
       <ProjectReference Include="..\Gamestore.DAL\Gamestore.DAL.csproj" />
     </ItemGroup>
 

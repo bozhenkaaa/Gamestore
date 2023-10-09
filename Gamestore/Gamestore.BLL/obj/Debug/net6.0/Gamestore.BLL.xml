@@ -93,6 +93,9 @@
         <member name="T:Gamestore.BLL.Services.Implementations.PlatformService">
             <inheritdoc cref="T:Gamestore.BLL.Services.Implementations.PlatformService" />
         </member>
+        <member name="M:Gamestore.BLL.Services.Implementations.PlatformService.#ctor(Gamestore.DAL.UnitOfWork.Interfaces.IUnitOfWork)">
+            <inheritdoc cref="T:Gamestore.BLL.Services.Implementations.PlatformService" />
+        </member>
         <member name="M:Gamestore.BLL.Services.Implementations.PlatformService.GetPlatformsAsync">
             <inheritdoc/>
         </member>

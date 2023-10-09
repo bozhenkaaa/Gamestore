@@ -6,14 +6,25 @@ namespace Gamestore.BLL.Services.Implementations;
 
 using Gamestore.BLL.DTOs;
 using Gamestore.BLL.Services.Interfaces;
+using Gamestore.DAL.Repositories.Interfaces;
+using Gamestore.DAL.UnitOfWork.Interfaces;
+using Gamestore.Models.Models;
 
 /// <inheritdoc cref="PlatformService" />
 public class PlatformService : IPlatformService
 {
-    /// <inheritdoc/>
-    public Task<IEnumerable<PlatformDTO>> GetPlatformsAsync()
+    private readonly IUnitOfWork unitOfWork;
+
+    /// <inheritdoc cref="PlatformService" />
+    public PlatformService(IUnitOfWork unitOfWork)
     {
-        throw new NotImplementedException();
+        this.unitOfWork = unitOfWork;
+    }
+
+    /// <inheritdoc/>
+    public async Task<IEnumerable<Platform>> GetPlatformsAsync()
+    {
+        return await this.unitOfWork.Platforms.GetAllAsync();
     }
 
     /// <inheritdoc/>

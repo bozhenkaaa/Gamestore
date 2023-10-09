@@ -2,6 +2,7 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+#nullable enable
 namespace Gamestore.DAL.Repositories.Implementations;
 
 using Gamestore.DAL.Data;
@@ -39,7 +40,9 @@ public class Repository<T> : IRepository<T>
     }
 
     /// <inheritdoc cref="GetByIdAsync" />
+#pragma warning disable CS8613
     public async Task<T?> GetByIdAsync(int id)
+#pragma warning restore CS8613
     {
         return await this.dbSet.FindAsync(id);
     }
