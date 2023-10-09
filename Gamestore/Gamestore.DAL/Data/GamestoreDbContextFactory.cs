@@ -6,6 +6,7 @@ namespace Gamestore.DAL.Data;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
 /// <summary>
 ///    Factory for creating <see cref="GamestoreDbContext" />.
@@ -16,7 +17,7 @@ public class GamestoreDbContextFactory : IDesignTimeDbContextFactory<GamestoreDb
     public GamestoreDbContext CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<GamestoreDbContext>();
-        optionsBuilder.UseSqlServer("DefaultConnection");
+        optionsBuilder.UseSqlServer("Server=localhost,1433;Database=GameStore1;User=SA;Password=reallyStrongPwd123;");
 
         return new GamestoreDbContext(optionsBuilder.Options);
     }
