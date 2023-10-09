@@ -6,7 +6,6 @@ namespace Gamestore.DAL.Data;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using Microsoft.Extensions.Configuration;
 
 /// <summary>
 ///    Factory for creating <see cref="GamestoreDbContext" />.
